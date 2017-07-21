@@ -27,6 +27,7 @@ article {
 
 .header h1 {
 	color: white;
+	font-family: 'Arapey', serif;
 	font-size: 70px;
 	margin: 5px;
 	margin-left: 15px;
@@ -45,6 +46,7 @@ article {
 
 nav ul {
 	color: white;
+	font-family: 'Arapey', serif;
 	text-shadow: 2px 2px 5px black;
 	margin: 0;
 	padding: 0;
@@ -77,10 +79,30 @@ footer {
 
  .workhistory h1 {
  	background-color: darkseagreen;
+ 	font-family: 'Arapey', serif;
 	color: white;
 	text-shadow: 2px 2px 5px black;
 	margin: 0;
 	padding: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: 'Lusitana', serif;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-family: 'Lusitana', serif;
+	margin-left: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.workhistory li {
+	font-family: 'Lusitana', serif;
+
 }
 
 /*****Contact Page Styles*****/
@@ -91,6 +113,7 @@ footer {
 
 .contact {
 	background-color: darkseagreen;
+	font-family: 'Arapey', serif;
 	color: white;
 	text-shadow: 2px 2px 5px black;
 	margin: 0;
