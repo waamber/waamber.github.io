@@ -7,6 +7,12 @@ body {
 	padding: 0;
 }	
 
+p {
+	font-family: 'Lusitana', serif;
+	margin: 15px;
+	padding: 15px;
+}
+
 div {
 	background-color: lightgrey;
 }
@@ -64,9 +70,17 @@ a {
 	text-decoration: none;
 }
 
-a.active {
+ .navbar a:hover {
 	color: darkseagreen;
-	text-decoration: underline;
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.navbar a:active {
+	background-color: ;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -126,6 +140,8 @@ h6 {
 
 .social li {
 	display: inline;
+	position: relative;
+	top: 100px;
 	
 }
 
@@ -134,8 +150,10 @@ h6 {
 	color: white;
 	text-shadow: 2px 2px 5px black;
 	margin: 25px;
+}
 
-
+.social a:active {
+	font-size: 85px;
 }
 
 .social-links {
@@ -145,7 +163,38 @@ h6 {
 }
 
 
+.contact-container {
+	height: 800px;
+}
 
+/*****ABOUT ME*****/
+
+.aboutme {
+	height: 800px;
+}
+
+.contact h1 {
+	text-align: center;
+}
+
+.aboutme-img {
+	text-align: center;
+}
+
+.aboutme-img img {
+	height: 30%;
+	width: 30%;
+	margin: 25px;
+	border: 2px solid white;
+	border-radius: 50%;
+
+}
+
+/*****PROJECTS*****/
+
+.project-container {
+	height: 800px
+}
 
 
 
