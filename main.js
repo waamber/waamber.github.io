@@ -8,12 +8,18 @@ var blog1 = {
 
 var blog2 = {
 	title: "The Beginning of the JavaScript Saga",
-	date: "July29, 207",
+	date: "July 29, 2017",
 	content: "So...this week we began our journey through the wonderful world of JavaScript. I'll be honest, I was super pumped to move out of CSS. I walked into class somewhat okay I had already been exposed to some JS, but boy did I go downhill quickly. Luckily, I left that first day of class not as confused as I was when I walked in. I found it very helpful to go back through the code after class/study group and read through it again. It seems to stick with me better. A lot of times I feel as though I'm not understanding why/how/what the code is doing, but when I explain it to a peer I get a teeny tiny boost of confidence because I'm actually able to explain it and it all makes sense. Looking forward to learning more, but not looking forward to all the hair that I'll probably pull out."
 };
 
 var blog3 = {
 	title: "July",
+	date: "Date",
+	content: "Lorem ipsum owned sizzle gangster, adipiscing mah nizzle. Nullam sapien velizzle, away da bomb, fo shizzle quizzle, gravida vel, shizznit. Pellentesque eget dang. Sizzle erizzle. Fusce gangster dolizzle dapibus turpis tempizzle break yo neck, yall. Maurizzle pellentesque fo shizzle mah nizzle fo rizzle, mah home g-dizzle izzle turpizzle. Rizzle in tortizzle. Pellentesque shiz rhoncizzle bling bling."
+};
+
+var blog3 = {
+	title: "Blog 3",
 	date: "Date",
 	content: "Nizzle brizzle. Ghetto the bizzle. Maecenizzle nisl. Etiam that's the shizzle ante, fizzle quis, ullamcorpizzle ut, daahng dawg izzle, pimpin'. Morbi owned crunk. Break it down felizzle. Da bomb ghetto, nisl fo shizzle fringilla cursizzle, libero mi own yo' phat, sed laorizzle neque enim things shut the shizzle up. Shut the shizzle up crackalackin nibh go to hizzle fo shizzle."
 };
