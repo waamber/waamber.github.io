@@ -13,19 +13,19 @@ var blog2 = {
 };
 
 var blog3 = {
-	title: "July ",
+	title: "July",
 	date: "Date",
 	content: "Nizzle brizzle. Ghetto the bizzle. Maecenizzle nisl. Etiam that's the shizzle ante, fizzle quis, ullamcorpizzle ut, daahng dawg izzle, pimpin'. Morbi owned crunk. Break it down felizzle. Da bomb ghetto, nisl fo shizzle fringilla cursizzle, libero mi own yo' phat, sed laorizzle neque enim things shut the shizzle up. Shut the shizzle up crackalackin nibh go to hizzle fo shizzle."
 };
 
 var blog4 = {
-	title: "Blog 4",
+	title: "August",
 	date: "Date",
 	content: "Lorizzle ipsizzle dolor sizzle amizzle, gangsta adipiscing elit. Crackalackin shizzlin dizzle sizzle, ghetto volutpizzle, suscipit sizzle, gravida vizzle, arcu. Own yo' check it out tortor. Sed funky fresh. Shizzle my nizzle crocodizzle at stuff dapibus turpis rizzle dope. Maurizzle pellentesque stuff izzle check it out. Gizzle izzle tortizzle. Pellentesque pizzle nisi. In we gonna chung yo dictumst."
 };
 
 var blog5 = {
-	title: "Blog 5",
+	title: "August",
 	date: "Date",
 	content: "Cras get down get down pede izzle yo mamma. Fo sociis natoque shizzle my nizzle crocodizzle funky fresh the bizzle dizzle rizzle montizzle, nascetizzle owned dope. Ut shut the shizzle up dizzle, i'm in the shizzle quizzle, crunk izzle, hizzle egizzle, urna. Mauris pimpin' urna commodo libero. Donec sagittizzle. Nullam augue black, fringilla a, aliquam yo mamma, condimentum at, ipsizzle. "
 };
