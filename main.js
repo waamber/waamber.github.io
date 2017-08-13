@@ -19,9 +19,9 @@ var blog3 = {
 };
 
 var blog4 = {
-	title: "Blog 3",
-	date: "Date",
-	content: "Nizzle brizzle. Ghetto the bizzle. Maecenizzle nisl. Etiam that's the shizzle ante, fizzle quis, ullamcorpizzle ut, daahng dawg izzle, pimpin'. Morbi owned crunk. Break it down felizzle. Da bomb ghetto, nisl fo shizzle fringilla cursizzle, libero mi own yo' phat, sed laorizzle neque enim things shut the shizzle up. Shut the shizzle up crackalackin nibh go to hizzle fo shizzle."
+	title: "First Group Project",
+	date: "August 12, 2017",
+	content: "We finished our first group project this past week, and it went waaaaay better than expected. We didn't have as many merge conflicts, and when we did, they weren't as terrifying as I thought it would be. Definitely looking forward to more!"
 };
 
 var blog5 = {
@@ -43,7 +43,6 @@ blogs.push(blog4);
 blogs.push(blog5);
 
 var blogContainer = document.getElementById("blog-container");
-var currentBlog = blogs[i];
 
 for (var i = 0; i < blogs.length; i++) {
 	var currentBlog = blogs[i];
