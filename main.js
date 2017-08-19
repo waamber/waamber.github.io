@@ -25,9 +25,9 @@ var blog4 = {
 };
 
 var blog5 = {
-	title: "August",
-	date: "Date",
-	content: "Lorizzle ipsizzle dolor sizzle amizzle, gangsta adipiscing elit. Crackalackin shizzlin dizzle sizzle, ghetto volutpizzle, suscipit sizzle, gravida vizzle, arcu. Own yo' check it out tortor. Sed funky fresh. Shizzle my nizzle crocodizzle at stuff dapibus turpis rizzle dope. Maurizzle pellentesque stuff izzle check it out. Gizzle izzle tortizzle. Pellentesque pizzle nisi. In we gonna chung yo dictumst."
+	title: "EVENT LISTENERS",
+	date: "August 19, 2017",
+	content: "So I definitely struggled with event listeners in the beginning. I was working on my Dynamic Cards project and I couldn't figure out how to get the click event to work. I had all the functions ready to go, but I sat there for HOURS trying to figure out why the click event wasn't firing off my code. A friend of mine came over to me to find out why I looked so confused and they looked at me and told me to stare REEEEAAALLLLY hard at the event listener. At that moment it immediately clicked (no pun intended), I wasn't calling the functions in the click event..DUH. But it's clicked ever since. Also, I didn't end up jumping out of a window that day."
 };
 
 var blog6 = {
