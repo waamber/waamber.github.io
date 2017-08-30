@@ -1,25 +1,34 @@
-var blogContainer = document.getElementById("blog-container");
-
-for (var i = 0; i < blogs.length; i++) {
-	var currentBlog = blogs[i];
+function domString(blogs){
 	var blogString = "";
+	for(var i = 0; i < blogs.length; i ++){
+		blogString += `<section class="blog-card">
+											<div class='card-title'>${blogs[i].title}</div>
+											<div class='card-date'><h6>${blogs[i].date}</h6></div>
+											<div class='card-content'><p>${blogs[i].content}</p></div>
+										</section>`;
+	writeToDom(blogString);
+	}
+}; 
 
-	blogString +=	"<section class='blog-card'>";
-	blogString +=		"<div class='card-title'>";
-	blogString +=			"<h4>" + currentBlog.title + "</h4>";
-	blogString +=		"</div>";
-	blogString +=		"<div class='card-date'>";
-	blogString +=			"<h6>" + currentBlog.date + "</h6>";
-	blogString +=		"</div>";
-	blogString +=		"<div class='card-content'>";
-	blogString +=			"<p>" + currentBlog.content + "</p>";
-	blogString +=		"</div>";
-	blogString +=	"</section>";
+function writeToDom(strang){
+	var blogContainer = document.getElementById("blog-container");
+	blogContainer.innerHTML = strang; 
+};
 
-	blogContainer.innerHTML += blogString;
-}
+function loadBlogs(){
+	var data = JSON.parse(this.responseText); 
+	domString(data.blogs);
+};
 
+function error() {
+	console.log("AHHHH!");
+};
 
+var blogsRequest = new XMLHttpRequest;
+blogsRequest.addEventListener("load", loadBlogs);
+blogsRequest.addEventListener("error", error);
+blogsRequest.open("GET", "blog.json");
+blogsRequest.send();
 
 
 
