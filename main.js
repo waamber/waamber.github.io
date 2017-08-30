@@ -31,9 +31,9 @@ var blog5 = {
 };
 
 var blog6 = {
-	title: "August",
-	date: "Date",
-	content: "Cras get down get down pede izzle yo mamma. Fo sociis natoque shizzle my nizzle crocodizzle funky fresh the bizzle dizzle rizzle montizzle, nascetizzle owned dope. Ut shut the shizzle up dizzle, i'm in the shizzle quizzle, crunk izzle, hizzle egizzle, urna. Mauris pimpin' urna commodo libero. Donec sagittizzle. Nullam augue black, fringilla a, aliquam yo mamma, condimentum at, ipsizzle. "
+	title: "XHR",
+	date: "August 29, 2017",
+	content: "What is there to say about XHR...at first I thought I understood it, but after going through the homework assignment, I felt completely lost. Like most of the content we've been going through, I have to have someone explain everything step-by-step over and over again until I got it. I feel somewhat okay about it right now, but I feel like that will change soon. :/"
 };
 
 blogs.push(blog1);
