@@ -1,8 +1,8 @@
 /*****MAIN STYLES*****/
 
 body {
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 0;
+	margin-left: 0;
 	margin-top: 0;
 	padding: 0;
 }	
@@ -13,9 +13,9 @@ p {
 	padding: 15px;
 }
 
-div {
+/*div {
 	background-color: lightgrey;
-}
+}*/
 
 article {
 	padding: 20px;
@@ -25,10 +25,10 @@ article {
 	background-image: url(http://www.themesltd.com/headers2/adorable_pug_heads.png);
 	display: cover;
 	margin: 0;
-    padding: 0;
-    height: 150px;
-    width: 100%;
-    position: relative;
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  position: relative;
 }
 
 .header h1 {
@@ -43,7 +43,8 @@ article {
 	text-shadow: 2px 2px 5px black;
 }
 
-.navbar {
+
+/*.navbar {
 	padding: 10px;
 	background-color: pink;
 	list-style: none;
@@ -81,7 +82,7 @@ a {
 	background-color: ;
 	padding-left: 10px;
 	padding-right: 10px;
-}
+}*/
 
 
 footer {
@@ -197,8 +198,28 @@ h6 {
 }
 
 /*****BLOG*****/
+.blogcard {
+	margin: 5px;
+}
 
-.blog-container {
+.col-xs-4 {	
+	height: 200px;
+	width: 250px
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-xs-4:after {
+    content:"";
+    position:absolute;
+    top:160px;
+    left:0;
+    height:40px;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0), lightgrey);
+}
+/*.blog-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -211,9 +232,9 @@ h6 {
 	height: 500px;
 	margin: 25px;
 	
-}
+}*/
 
-.card-title {
+/*.card-title {
 	margin: 0;
 }
 
@@ -230,7 +251,7 @@ h6 {
 
 .card-date {
 	text-align: center;
-}
+}*/
 
 
 

@@ -1,10 +1,10 @@
 function domString(blogs){
 	var blogString = "";
 	for(var i = 0; i < blogs.length; i ++){
-		blogString += `<section class="blog-card">
-											<div class='card-title'>${blogs[i].title}</div>
-											<div class='card-date'><h6>${blogs[i].date}</h6></div>
-											<div class='card-content'><p>${blogs[i].content}</p></div>
+		blogString += `<section class="blog-card col-xs-4 panel panel-success">
+											<div class='card-title panel-heading'>${blogs[i].title}</div>
+											<div class='card-date panel-body'><h6>${blogs[i].date}</h6></div>
+											<div class='card-content panel-body'><p>${blogs[i].content}</p></div>
 										</section>`;
 	writeToDom(blogString);
 	}
