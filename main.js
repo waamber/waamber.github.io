@@ -9,10 +9,10 @@ var selectedCard;
 function domString(blogs){
 	var blogString = "";
 	for(var i = 0; i < blogs.length; i ++){
-		blogString += `<section class="blog-card col-xs-4 panel panel-success child" id="blogcard">
-											<div class='card-title panel-heading child'>${blogs[i].title}</div>
-											<div class='card-date panel-body child'><h6>${blogs[i].date}</h6></div>
-											<div class='card-content panel-body child'><p>${blogs[i].content}</p></div>
+		blogString += `<section class="blog-card child col-xs-4" id="blogcard">
+											<div class='card-title child'>${blogs[i].title}</div>
+											<div class='card-date child'><h6>${blogs[i].date}</h6></div>
+											<div class='card-content child'><p>${blogs[i].content}</p></div>
 										</section>`;
 	writeToDom(blogString);
 	}
@@ -26,10 +26,25 @@ blogContainer.addEventListener("click", function(event){
   }else if(event.target.classList.contains("blog-card")){
     selectedCard = event.target;
   }
-    return selectedCard;
+    addModal();
+    console.log(selectedCard);
 });
 
- 
+function addModal(){
+	selectedCard.classList.remove("col-xs-4");
+	selectedCard.classList.add("modal-content", "stretch");
+	selectedCard.classList.add("col-xs-12");
+}
+
+// var modalBtn = document.createElement("button");
+// 	selectedCard.appendChild(modalBtn);
+// 	var modalTxt = document.createTextNode("CLOSE");
+// 	modalBtn.appendChild(modalTxt);
+
+// modalBtn.addEventListener("click", function(){
+// 			selectedCard.classList.remove("col-xs-12", "modal-content", "stretch");
+// 			selectedCard.classList.add("col-xs-4");
+// 	})
 
 function writeToDom(strang){
 	var blogContainer = document.getElementById("blog-container");
@@ -45,7 +60,15 @@ function error() {
 	console.log("AHHHH!");
 };
 
+var inputField = document.getElementById("search");
 
+inputField.addEventListener("keypress", function(event) {
+		var txt = inputField.value;
+		var result = blogs.filter(function(blogs) {
+			return blogs.content.indexOf(txt)>-1;
+		})
+		domString(result);
+});
 
 var blogsRequest = new XMLHttpRequest;
 blogsRequest.addEventListener("load", loadBlogs);
