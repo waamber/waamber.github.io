@@ -30,21 +30,25 @@ blogContainer.addEventListener("click", function(event){
     console.log(selectedCard);
 });
 
+//possible jumbotron with hidden class "display: none";
+
 function addModal(){
 	selectedCard.classList.remove("col-xs-4");
 	selectedCard.classList.add("modal-content", "stretch");
 	selectedCard.classList.add("col-xs-12");
+
+	var modalBtn = document.createElement("button");
+	selectedCard.appendChild(modalBtn);
+	var modalTxt = document.createTextNode("CLOSE");
+	modalBtn.appendChild(modalTxt);
+
+modalBtn.addEventListener("click", function(){
+			selectedCard.classList.remove("col-xs-12", "modal-content", "stretch");
+			selectedCard.classList.add("col-xs-4");
+	})
 }
 
-// var modalBtn = document.createElement("button");
-// 	selectedCard.appendChild(modalBtn);
-// 	var modalTxt = document.createTextNode("CLOSE");
-// 	modalBtn.appendChild(modalTxt);
 
-// modalBtn.addEventListener("click", function(){
-// 			selectedCard.classList.remove("col-xs-12", "modal-content", "stretch");
-// 			selectedCard.classList.add("col-xs-4");
-// 	})
 
 function writeToDom(strang){
 	var blogContainer = document.getElementById("blog-container");
