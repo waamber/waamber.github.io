@@ -39,14 +39,22 @@ article {
 	text-shadow: 2px 2px 5px black;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
+
 footer {
 	text-align: center;
 	margin: 20px;
 }
 
-/*****BIO PAGE STYLES*****/
+/*****PROFESSIONAL HISTORY STYLES*****/
 
- .workhistory h1 {
+article {
+	padding: 0;
+}
+
+.workhistory h1 {
  	background-color: darkseagreen;
  	font-family: 'Arapey', serif;
 	color: white;
@@ -75,6 +83,9 @@ h6 {
 }
 
 /*****Contact Page Styles*****/
+.contact-container {
+	background-color: lightgrey;
+}
 
 .contactinfo {
 	text-align: center;
@@ -117,7 +128,6 @@ h6 {
 	display: inline-block;
 }
 
-
 .contact-container {
 	height: 800px;
 }
@@ -142,13 +152,14 @@ h6 {
 	margin: 25px;
 	border: 2px solid white;
 	border-radius: 50%;
-
 }
 
 /*****PROJECTS*****/
 
 .container {
-	height: 800px
+	height: 800px;
+	width: 100%;
+	padding: 0;
 }
 
 /*****BLOG*****/
