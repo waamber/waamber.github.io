@@ -29,6 +29,11 @@
 			"title": "XHR",
 			"date": "August 29, 2017",
 			"content": "What is there to say about XHR...at first I thought I understood it, but after going through the homework assignment, I felt completely lost. Like most of the content we've been going through, I have to have someone explain everything step-by-step over and over again until I got it. I feel somewhat okay about it right now, but I feel like that will change soon. :/"
+		},
+		{
+			"title": "Bootstrap",
+			"date": "September 2, 2017",
+			"content": "Bootstrap...more like Bootcrap! Kidding...anyways...I'm gonna be honest, I don't care for Boostrap all that much. All the hard work and CSS I put into styling my page is pretty much gone :(. I do like the grid system and components that it offers, but the styling is limited. I spent a lot of time trying to override the Bootstrap styling (didn't really work). Now that I've spent a week or so on it, I guess it's JUST okay."
 		}
 	]
 }
