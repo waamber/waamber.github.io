@@ -34,6 +34,11 @@
 			"title": "Bootstrap",
 			"date": "September 2, 2017",
 			"content": "Bootstrap...more like Bootcrap! Kidding...anyways...I'm gonna be honest, I don't care for Boostrap all that much. All the hard work and CSS I put into styling my page is pretty much gone :(. I do like the grid system and components that it offers, but the styling is limited. I spent a lot of time trying to override the Bootstrap styling (didn't really work). Now that I've spent a week or so on it, I guess it's JUST okay."
+		},
+		{
+			"title": "Taskrunners and Browserify",
+			"date": "September 18, 2017",
+			"content": "We've been learning taskrunners and browserify the last week or so and it's been very helpful! Grunt is something we should have been running from the beginning, in my opinion. I don't know how many times I've had an error in my code that was due to a missing semicolon and I could NOT find that thing! I don't like the fact that it takes me 5-10 minutes to do a setup for a project, BUT it's well worth it."
 		}
 	]
 }
