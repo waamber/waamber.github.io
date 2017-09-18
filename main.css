@@ -163,6 +163,10 @@ h6 {
 }
 
 /*****BLOG*****/
+.blog-container {
+	margin-top: 15px;
+}
+
 .col-xs-4 {	
 	background-color: lightgrey;
 	padding: 15px;
