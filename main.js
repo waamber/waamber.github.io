@@ -1,54 +1,43 @@
-const blogContainer = document.getElementById("blog-container");
 let selectedCard;
-const jumboCardContainer = document.getElementById("jumboCard");
 
 const domString = (blogs) => {
 	let blogString = "";
-	for(let i = 0; i < blogs.length; i ++){
+	for (let i = 0; i < blogs.length; i++) {
 		blogString += `<section class="blog-card col-xs-4" id="blogcard">
 											<div class='card-title child'>${blogs[i].title}</div>
 											<div class='card-date child'><h6>${blogs[i].date}</h6></div>
 											<div class='card-content child'><p>${blogs[i].content}</p></div>
 										</section>`;
-	writeToDom(blogString);
+		writeToDom(blogString);
 	}
 };
 
-blogContainer.addEventListener("click", (event) => {
-  if(event.target.classList.contains("child")){
-    selectedCard = event.target.parentNode;
-  }else if(event.target.parentNode.parentNode.classList.contains("blog-card")){
-    selectedCard = event.target.parentNode.parentNode;
-  }else if(event.target.classList.contains("blog-card")){
-    selectedCard = event.target;
-  }
-  	jumboCardContainer.classList.remove("hidden");
-  	jumboCardContainer.innerHTML = selectedCard.innerHTML;
+$('#blog-container').click((event) => {
+	if ($(event.target).hasClass('child')) {
+		selectedCard = $(event.target).parent();
+	} else if ($(event.target).parent().parent().hasClass('blog-card')) {
+		selectedCard = $(event.target).parent().parent();
+	} else if ($(event.target).hasClass('blog-card')) {
+		selectedCard = $(event.target);
+	}
+	$('#jumboCard').removeClass('hidden');
+	$('#jumboCard').html(event.target.innerHTML);
 });
 
-jumboCardContainer.addEventListener("click", () => {
-	jumboCardContainer.classList.add("hidden");
+$('#jumboCard').click(() => {
+	$('#jumboCard').addClass('hidden');
 });
 
-const writeToDom = (strang) => {
-	var blogContainer = document.getElementById("blog-container");
-	blogContainer.innerHTML = strang; 
+const writeToDom = (blogString) => {
+	$('#blog-container').html(blogString);
 };
 
-const loadBlogs = (event) => {
-	data = JSON.parse(event.target.responseText); 
-	domString(data.blogs);
-};
-
-const error = () => {
-	console.log("AHHHH!");
-};
-
-const blogsRequest = new XMLHttpRequest();
-blogsRequest.addEventListener("load", loadBlogs);
-blogsRequest.addEventListener("error", error);
-blogsRequest.open("GET", "blog.json");
-blogsRequest.send();
+$.get('blog.json').done((data) => {
+	blogs = data.blogs;
+	domString(blogs);
+}).fail((error) => {
+	console.log(error);
+});
 
 
 
