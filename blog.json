@@ -39,6 +39,11 @@
 			"title": "Taskrunners and Browserify",
 			"date": "September 18, 2017",
 			"content": "We've been learning taskrunners and browserify the last week or so and it's been very helpful! Grunt is something we should have been running from the beginning, in my opinion. I don't know how many times I've had an error in my code that was due to a missing semicolon and I could NOT find that thing! I don't like the fact that it takes me 5-10 minutes to do a setup for a project, BUT it's well worth it."
+		},
+		{
+			"title": "Chatty and Jquery",
+			"date": "October 7, 2017",
+			"content": "I learned a TON after finishing up the Chatty app. I was really confused for a while on browserify stuff, but after working through the project with others...IT CLICKED. Also....I wish we would've learned jquery sooner because it would've made my life so much better. Thanking the jquery gods!"
 		}
 	]
 }
