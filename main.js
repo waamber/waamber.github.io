@@ -21,9 +21,9 @@ $('#blog-container').click((event) => {
 		$('#jumboCard').removeClass('hidden');
 		$('#jumboCard').html(blogCard.innerHTML);
 	};
+	$('html, body').animate({ scrollTop: 0 }, 'fast');
 });
 
-//future goal: when you click on blogcard, you get taken back to top of page
 
 $('#jumboCard').click(() => {
 	$('#jumboCard').addClass('hidden');
