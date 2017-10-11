@@ -24,7 +24,6 @@ $('#blog-container').click((event) => {
 	$('html, body').animate({ scrollTop: 0 }, 'fast');
 });
 
-
 $('#jumboCard').click(() => {
 	$('#jumboCard').addClass('hidden');
 });
