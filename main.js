@@ -13,16 +13,17 @@ const domString = (blogs) => {
 };
 
 $('#blog-container').click((event) => {
-	if ($(event.target).hasClass('child')) {
-		selectedCard = $(event.target).parent();
-	} else if ($(event.target).parent().parent().hasClass('blog-card')) {
-		selectedCard = $(event.target).parent().parent();
-	} else if ($(event.target).hasClass('blog-card')) {
-		selectedCard = $(event.target);
-	}
-	$('#jumboCard').removeClass('hidden');
-	$('#jumboCard').html(event.target.innerHTML);
+	if ($(event.target).hasClass('blog-card')) {
+		$('#jumboCard').removeClass('hidden');
+		$('#jumboCard').html(event.target.innerHTML);
+	} else {
+		const blogCard = $(event.target).parents('.blog-card')[0];
+		$('#jumboCard').removeClass('hidden');
+		$('#jumboCard').html(blogCard.innerHTML);
+	};
 });
+
+//future goal: when you click on blogcard, you get taken back to top of page
 
 $('#jumboCard').click(() => {
 	$('#jumboCard').addClass('hidden');
