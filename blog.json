@@ -44,6 +44,11 @@
 			"title": "Chatty and Jquery",
 			"date": "October 7, 2017",
 			"content": "I learned a TON after finishing up the Chatty app. I was really confused for a while on browserify stuff, but after working through the project with others...IT CLICKED. Also....I wish we would've learned jquery sooner because it would've made my life so much better. Thanking the jquery gods!"
+		},
+		{
+			"title": "Promises",
+			"date": "October 11, 2017",
+			"content": ""
 		}
 	]
 }
