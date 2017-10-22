@@ -1,1 +1,201 @@
 @import 'variables';
+
+/////////////// MAIN //////////////
+
+body {
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+
+    p {
+    font-family: $alt-text;
+    margin: 15px;
+    padding: 15px;
+  }
+}
+
+.header {
+	background-image: url(http://www.themesltd.com/headers2/adorable_pug_heads.png);
+	display: cover;
+	margin: 0;
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  position: relative;
+
+    h1 {
+    color: $headertext-color;
+    font-family: $header-text;
+    font-size: 70px;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    text-shadow: $text-shadow;
+  }
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+footer {
+	text-align: center;
+	margin: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: $alt-text;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+h6 {
+	font-family: $alt-text;
+	margin-left: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/////////////// WORK HISTORY //////////////
+
+.workhistory {
+  h1 {
+    background-color: $header-color;
+    font-family: $header-text;
+    color: $headertext-color;
+    text-shadow: $text-shadow;
+    margin: 0;
+    padding: 20px;
+  }
+
+  li {
+    font-family: $alt-text;
+  }
+}
+
+/////////////// CONTACT //////////////
+
+.contact-container {
+	background-color: $blog-card;
+  height: 800px;
+}
+
+.contactinfo {
+	text-align: center;
+}
+
+.contact {
+	background-color: $header-color;
+	font-family: $header-text;
+	color: $headertext-color;
+	text-shadow: $text-shadow;
+	margin: 0;
+	padding: 5px;
+
+    h1 {
+	  text-align: center;
+  }
+}
+
+.social {
+	list-style: none;
+
+  li {
+    display: inline;
+    position: relative;
+    top: 100px;
+  }
+
+  a {
+	  font-size: 75px;
+	  color: $headertext-color;
+	  text-shadow: $text-shadow;
+	  margin: 25px;
+
+    :active {
+	    font-size: 85px;
+    }
+  }
+}
+
+.social-links {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+/////////////// ABOUT ME //////////////
+
+.aboutme {
+	height: 800px;
+}
+
+.aboutme-img {
+	text-align: center;
+
+    img {
+	    height: 30%;
+	    width: 30%;
+	    margin: 25px;
+	    border: $alt-border;
+	    border-radius: 50%;
+    }
+}
+
+/////////// BLOGS /////////
+
+.container {
+	height: 800px;
+	width: 100%;
+	padding: 0;
+}
+
+/*****BLOG*****/
+.blog-container {
+	margin-top: 15px;
+}
+
+.col-xs-4 {	
+	background-color: $blog-card;
+	padding: 15px;
+	height: 200px;
+	width: 32.6299%;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: $blog-border;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.card-title {
+	background-color: $header-color;
+	color: $headertext-color;
+	text-shadow: $text-shadow;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+
+.jumbotron {
+	border: $blog-border;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.stretch {
+	height: 450px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
