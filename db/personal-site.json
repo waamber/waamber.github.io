@@ -49,6 +49,31 @@
 			"title": "Promises",
 			"date": "October 11, 2017",
 			"content": ""
+		},
+		{
+			"title": "API",
+			"date": "October 22, 2017",
+			"content": ""
+		}
+	],
+	"projects": [
+		{
+			"title": "Interactive Grid",
+			"screenshots": "",
+			"description": "magic kingdom project",
+			"github": ""
+		},
+		{
+			"title": "Weather Now",
+			"screenshots": "",
+			"description": "weather app",
+			"github": ""
+		},
+		{
+			"title": "Some random project",
+			"screenshots": "",
+			"description": "random project",
+			"github": ""
 		}
 	]
 }
