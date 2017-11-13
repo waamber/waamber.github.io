@@ -17,6 +17,8 @@ let projectsArray;
 
 const setKey = (key) => {
   firebaseKey = key;
+  getBlogs();
+  getProjects();
 };
 
 const getBlogs = () => {
@@ -150,16 +152,12 @@ module.exports = { retrieveKeys };
 'use strict';
 
 const firebaseApi = require('./firebaseApi');
-const data = require('./data');
 
-
-$(document).ready(function () {
-  firebaseApi.retrieveKeys();
-  data.getBlogs();
-  data.getProjects();
-});
+firebaseApi.retrieveKeys();
 
 
 
 
-},{"./data":2,"./firebaseApi":4}]},{},[5]);
+
+
+},{"./firebaseApi":4}]},{},[5]);
