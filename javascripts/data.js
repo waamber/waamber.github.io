@@ -6,8 +6,6 @@ let projectsArray;
 
 const setKey = (key) => {
   firebaseKey = key;
-  getBlogs();
-  getProjects();
 };
 
 const getBlogs = () => {
