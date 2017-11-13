@@ -145,3 +145,27 @@ h6 {
 
 .hidden {
   display: none; }
+
+.projects-container {
+  margin-top: 35px;
+  text-align: center; }
+
+.project-card {
+  height: 550px;
+  padding: 5px; }
+  .project-card .project-title {
+    background-color: darkseagreen;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    font-family: "Arapey", serif; }
+  .project-card .project-photo {
+    text-align: center; }
+    .project-card .project-photo img {
+      width: 400px;
+      height: 275px;
+      border-radius: 15px;
+      border: 2px solid pink; }

@@ -65,13 +65,17 @@ const domString = (blogs) => {
 const projectDomString = (projects) => {
 	let projectString = "";
 	for (let i = 0; i < projects.length; i++) {
-		projectString += `<div class="project-card col-xs-4">
-												<div class="project-title">${projects[i].title}</div>
-												<div class="project-photo"><img src=${projects[i].screenshots}></div>
-												<div class="project-description"><p>${projects[i].description}</p></div>
-												<div class="project-link"><a href="${projects[i]}.github">Project Link</a></div>
-											</div>`;
-
+		projectString += `<div class="project-card col-xs-4">`;
+		projectString += `<div class="project-title">${projects[i].title}</div>`;
+		projectString += `<div class="project-photo"><img src="${projects[i].screenshots}"></div>`;
+		projectString += `<div class="project-description"><p>${projects[i].description}</p></div>`;
+		projectString += `<div class="project-link"><a href="${projects[i].github}">Project Link</a></div>`;
+		if (projects[i].hosted) {
+			projectString += `<div class="project-hosted"><a href="${projects[i].hosted}">Hosted Site</a></div>`;
+			projectString += `</div>`;
+		} else {
+			projectString += `</div>`;
+		}
 	}
 	writeProjectToDom(projectString);
 };
