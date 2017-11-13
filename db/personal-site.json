@@ -48,32 +48,38 @@
 		{
 			"title": "Promises",
 			"date": "October 11, 2017",
-			"content": ""
+			"content": "Promises are not clicking, honestly. It usually takes me a good minute for stuff to click so maybe that'll happen soon."
 		},
 		{
 			"title": "API",
 			"date": "October 22, 2017",
-			"content": ""
+			"content": "I LOVE WORKING WITH API's! Once I can access the data, getting what I need is a breeze to me...for now. I'm assuming not all api's are easy to navigate, but for now, me likey."
+		},
+		{
+			"title": "Theme Park",
+			"date": "November 12, 2017",
+			"content": "I learned a lot working on the theme park project. I FINALLY GET FIREBASE. I was team lead for this project, I definitely wasn't a fan of that, but I guess I need to get used to it. Promises also click. I'm super excited to get into Angular though."
 		}
 	],
 	"projects": [
 		{
 			"title": "Interactive Grid",
-			"screenshots": "",
-			"description": "magic kingdom project",
-			"github": ""
+			"screenshots": "https://i.imgur.com/YFvJACG.png",
+			"description": "This was a project I worked on with a group on class. It's an interactive grip map of Magic Kingdom. We used Firebase to store information about the areas, attractions in the areas and maintanence tickets. ",
+			"github": "https://github.com/nss-evening-cohort-06/theme-park-protagonists",
+			"hosted": "theme-park-927c8.firebaseapp.com"
 		},
 		{
 			"title": "Weather Now",
-			"screenshots": "",
-			"description": "weather app",
-			"github": ""
+			"screenshots": "https://i.imgur.com/xWYjCWW.png",
+			"description": "Weather Now was an app built using the Open Weather Map API and Firebase. You just type in the the zipcode of the city you want weather info for and it gives you the 3 and 5 day forecast.",
+			"github": "https://github.com/waamber/Local-Weather-Application"
 		},
 		{
-			"title": "Some random project",
-			"screenshots": "",
-			"description": "random project",
-			"github": ""
+			"title": "Sandwich Maker",
+			"screenshots": "https://i.imgur.com/tvafAlO.png",
+			"description": "The Sammich Shop is an app that calulates the price of fixins you'd like on your sandwich and gives you a total.",
+			"github": "https://github.com/waamber/sandwichMaker-browserify"
 		}
 	]
 }

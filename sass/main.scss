@@ -196,6 +196,41 @@ h6 {
 	display: none;
 }
 
+//////////// PROJECTS /////////////
+.projects-container {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.project-card {
+	height: 550px;
+	padding: 5px;
+
+		.project-title {
+			background-color: $header-color;
+			color: $headertext-color;
+			text-shadow: $text-shadow;
+			text-align: center;
+			padding: 5px;
+			margin: 5px;
+			font-size: 25px;
+			font-family: $header-text;
+		}	 
+
+		.project-photo {
+			text-align: center;
+
+				img {
+				width: 400px;
+				height: 275px;
+				border-radius: 15px;
+				border: $blog-border;
+		}
+
+	
+	}
+}
+
 
 
 
